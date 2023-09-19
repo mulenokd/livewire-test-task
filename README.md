@@ -28,17 +28,4 @@ Then you need copy `.env.example` to `.env` and run following commands:
 - `php artisan key:generate`
 - `php artisan serve`
 
-For `torann/currency` package you need to open `php artisan tinker` console and run this code:
-
-``` 
-currency()->create([
-    'name' => 'U.S. Dollar',
-    'code' => 'USD',
-    'symbol' => '$',
-    'format' => '$1,0.00',
-    'exchange_rate' => 1.00000000,
-    'active' => 1,
-]);
-```
-
 By the way, you don't need a DB connection for this task
