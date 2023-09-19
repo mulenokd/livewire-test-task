@@ -20,7 +20,12 @@ There is a form for entering card data and processing it. It is outdated and req
 For a start project, you need run these commands:
 
 - `composer install`
+- `npm install`
 - `npm run dev`
+
+Then you need copy `.env.example` to `.env` and run following commands:
+
+- `php artisan key:generate`
 - `php artisan serve`
 
 For `torann/currency` package you need to open `php artisan tinker` console and run this code:
@@ -36,4 +41,4 @@ currency()->create([
 ]);
 ```
 
-By the way, for this task you don't need a DB
+By the way, you don't need a DB connection for this task
