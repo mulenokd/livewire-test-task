@@ -22,10 +22,6 @@ For a start project, you need run these commands:
 - `composer install`
 - `npm install`
 - `npm run dev`
-
-Then you need copy `.env.example` to `.env` and run following commands:
-
-- `php artisan key:generate`
 - `php artisan serve`
 
 By the way, you don't need a DB connection for this task
