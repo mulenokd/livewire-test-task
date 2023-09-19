@@ -13,9 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'welcome')->name('home');
-
 Route::namespace('\App\Actions')->group(function () {
-    Route::get('/pay', 'Pay')->name('page.pay');
+    Route::get('/', 'Pay')->name('page.pay');
     Route::get('/status', 'Status')->name('page.status');
 });
