@@ -134,7 +134,9 @@ return [
     'credit_card.card_pattern_invalid' => 'Card is invalid',
     'credit_card.card_length_invalid' => 'Invalid card number length',
     'credit_card.card_checksum_invalid' => 'Card is invalid',
-
+    'credit_card.card_expiration_date_invalid' => 'Card expiration date is invalid',
+    'credit_card.card_expiration_date_format_invalid' => 'Card expiration date format is invalid',
+    'credit_card.card_cvc_invalid' => 'Card CVC is invalid',
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines

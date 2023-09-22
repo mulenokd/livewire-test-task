@@ -20,7 +20,7 @@
             x-on:click="{{ $jsAction }}"
             type="button"
         @endif
-        wire:loading.attr="disabled"
+{{--        wire:loading.attr="disabled"--}}
         class="flex w-full justify-center rounded-md bg-{{ $color }} px-3 py-2 text-base sm:text-sm font-semibold text-{{ $textcolor }} shadow-sm hover:bg-{{ $hover }} focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 @endif
     <span wire:loading.class.remove="opacity-0" class="opacity-0 absolute transition-opacity">
