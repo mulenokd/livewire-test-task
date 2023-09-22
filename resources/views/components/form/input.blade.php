@@ -55,7 +55,7 @@
                 @if ($autocomplete) autocomplete="{{ $autocomplete }}" @endif
                 @if ($inputMode) inputmode="{{ $inputMode }}" @endif 
                 @if ($placeholder) placeholder="{{ $placeholder }}" @endif 
-                @if ($wire) wire:model.{{ $defer ? 'defer' : 'debounce.500ms' }}="{{ $model }}" @else name="{{ $model }}" @endif 
+                @if ($wire) wire:model.lazy="{{ $model }}" @else name="{{ $model }}" @endif
                 class="{{ $inputClass }} block w-full rounded-md transition duration-150 border-0 py-2 sm:py-1.5 pr-10 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6
                 @if ($error)
                     placeholder:text-red-300 text-red-900 ring-red-300 focus:ring-red-500
